@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="Lib/javacpp.jar"/>
+	<classpathentry kind="lib" path="Lib/javacv-platform.jar"/>
+	<classpathentry kind="lib" path="Lib/javacv.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-android-arm.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-android-arm64.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-android-x86_64.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-android-x86.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-ios-arm64.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-ios-x86_64.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-linux-armhf.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-linux-ppc64le.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-linux-x86.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-macosx-x86_64.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-platform.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv-windows-x86.jar"/>
+	<classpathentry kind="lib" path="Lib/opencv.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
