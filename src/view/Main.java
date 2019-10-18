@@ -3,6 +3,7 @@ package view;
 import org.bytedeco.javacv.FrameGrabber.Exception;
 
 import controller.CapturaController;
+import controller.Reconhecimento;
 import controller.TreinamentoController;
 
 public class Main {
@@ -16,8 +17,16 @@ public class Main {
 //			// TODO Auto-generated catch block
 //			e.printStackTrace();
 //		}
-		TreinamentoController tc = new TreinamentoController();
-		tc.treinar();
+//		TreinamentoController tc = new TreinamentoController();
+//		tc.treinar();
+		Reconhecimento rc = new Reconhecimento();
+		try {
+			rc.reconhecer();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
-
+	
 }
