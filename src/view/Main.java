@@ -21,6 +21,7 @@ public class Main {
 //		tc.treinar();
 		Reconhecimento rc = new Reconhecimento();
 		try {
+			System.out.println("Reconhecer!");
 			rc.reconhecer();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
